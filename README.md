@@ -1,8 +1,11 @@
-#**PCA Dimensionality Reduction on Seeds Dataset**
-##**Overview**
+**PCA Dimensionality Reduction on Seeds Dataset**
+
+**Overview**
+
 This project demonstrates how to apply Principal Component Analysis (PCA) for dimensionality reduction using the Seeds dataset. PCA is a technique used to reduce the number of features while preserving the most significant variance in the data. This tutorial provides step-by-step code to standardize the dataset, apply PCA, and visualize the results.
 
-##**Features**
+**Features**
+
 Step-by-step implementation of PCA:
 Standardization: Preprocessing data to ensure equal weighting for all features.
 Covariance Matrix Calculation: Capturing relationships between features.
@@ -13,7 +16,8 @@ Advanced PCA:
 Bootstrapping for robust variance estimation.
 Confidence intervals for variance explained by components.
 
-##**Requirements**
+**Requirements**
+
 You can run this project directly in a Google Colab notebook. The following Python libraries are used in the code:
 * Libraries
   * numpy
@@ -23,14 +27,15 @@ You can run this project directly in a Google Colab notebook. The following Pyth
   * scikit-learn
   * ipywidgets (for interactive visualizations)
     
-##**Project Structure**
+**Project Structure**
+
 The project consists of a Google Colab notebook:
 
-.
 ├── PCA.ipynb    # Google Colab notebook to apply PCA on the Seeds dataset
 └── README.md                  # Documentation for this project
 
-##**How to Use the Code**
+**How to Use the Code**
+
 Step 1: Open the Google Colab Notebook
 Open the Google Colab notebook directly by clicking on the link below (or copy-paste it into your browser):
 
@@ -52,7 +57,8 @@ Original Data Visualization: A scatter plot comparing the first two features (Ar
 PCA Visualization: A scatter plot comparing the first two principal components.
 Variance Explained Plot: A bar and line graph showing how much variance each principal component explains.
 
-##**Code Explanation**
+**Code Explanation**
+
 1. Standardization:
 The dataset is standardized using StandardScaler from sklearn.preprocessing. This ensures that all features have a mean of 0 and a standard deviation of 1, which is crucial for PCA.
 2. PCA Application:
@@ -68,7 +74,8 @@ An interactive widget, powered by ipywidgets, allows users to dynamically explor
 5.Advanced PCA :
 A graph showing Robust PCA :Variation Estimation
 
-##**Example Output**
+**Example Output**
+
 Running the notebook will display:
 A scatter plot showing Animated PCA transformation
 A scatter plot of the original data (Area vs. Perimeter).
@@ -76,9 +83,11 @@ A scatter plot of the PCA-transformed data (Principal Component 1 vs. Principal 
 A graph of explained variance showing how much variance each principal component explains.
 A graph showing Robust PCA :Variation Estimation
 
-##**License**
+**License**
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-##**Acknowledgements**
+**Acknowledgements**
+
 The dataset used in this tutorial is from the UCI Machine Learning Repository, specifically the Seeds Dataset.
 PCA and dimensionality reduction techniques are implemented using scikit-learn.
