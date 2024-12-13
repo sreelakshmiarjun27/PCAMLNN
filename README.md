@@ -74,22 +74,22 @@ The project consists of a Google Colab notebook:
 1. Standardization:
    The dataset is standardized using StandardScaler from sklearn.preprocessing. This ensures that all features have a mean of 0 and a standard deviation of 1, which is crucial for PCA.
 
-3. PCA Application:
+2. PCA Application:
    The PCA transformation is performed with PCA(n_components=2) from sklearn.decomposition. This reduces the dataset to two principal components.
-The explained variance ratio for each component is displayed, helping to understand how much variance is captured by each principal component.
+   The explained variance ratio for each component is displayed, helping to understand how much variance is captured by each principal component.
 
-5. Visualization:
+3. Visualization:
    
-The code generates two scatter plots:
-One showing the original data using the first two features (Area and Perimeter).
-The other showing the transformed data in terms of the first two principal components.
-A bar plot and cumulative variance line graph illustrate how much variance is explained by each principal component.
+  The code generates two scatter plots:
+  One showing the original data using the first two features (Area and Perimeter).
+  The other showing the transformed data in terms of the first two principal components.
+  A bar plot and cumulative variance line graph illustrate how much variance is explained by each principal component.
 
-7. Interactive Widget:
-An interactive widget, powered by ipywidgets, allows users to dynamically explore the effect of varying the number of principal components on the cumulative variance explained.
+4. Interactive Widget:
+   An interactive widget, powered by ipywidgets, allows users to dynamically explore the effect of varying the number of principal components on the cumulative variance explained.
 
-5.Advanced PCA :
-A graph showing Robust PCA :Variation Estimation
+5. Advanced PCA :
+   A graph showing Robust PCA :Variation Estimation
 
 **Example Output**
 
