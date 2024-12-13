@@ -8314,7 +8314,7 @@ Confidence intervals (e.g., 95%) to capture the range of possible values.</p>
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">advanced_pca_analysis</span><span class="p">(</span><span class="n">X_scaled</span><span class="p">,</span> <span class="n">n_bootstraps</span><span class="o">=</span><span class="mi">100</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">"""</span>
-<span class="sd">    Perform robust PCA analysis with bootstrapping and information theory</span>
+<span class="sd">    Perform robust PCA analysis with bootstrapping</span>
 
 <span class="sd">    Args:</span>
 <span class="sd">        X_scaled (numpy.ndarray): Standardized input data</span>
@@ -8386,7 +8386,8 @@ Confidence intervals (e.g., 95%) to capture the range of possible values.</p>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Total Variance Explained:"</span><span class="p">,</span> <span class="n">advanced_results</span><span class="p">[</span><span class="s1">'total_variance_explained'</span><span class="p">])</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Cumulative Variance:"</span><span class="p">,</span> <span class="n">advanced_results</span><span class="p">[</span><span class="s1">'cumulative_variance'</span><span class="p">])</span>
 
-<span class="c1"># Alt text:A line graph titled 'Robust PCA: Variance Estimation' shows the explained variance ratio for seven principal components. The first component explains the most variance, with a sharp drop-off after the second, and error bars indicate the 95% confidence interval.</span>
+<span class="c1"># Alt text:A line graph titled 'Robust PCA: Variance Estimation' shows the explained variance ratio for seven principal components.</span>
+<span class="c1"># The first component explains the most variance, with a sharp drop-off after the second, and error bars indicate the 95% confidence interval.</span>
 </pre></div>
 </div>
 </div>
