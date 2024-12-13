@@ -7,11 +7,17 @@ This project demonstrates how to apply Principal Component Analysis (PCA) for di
 **Features**
 
 Step-by-step implementation of PCA:
+
 Standardization: Preprocessing data to ensure equal weighting for all features.
+
 Covariance Matrix Calculation: Capturing relationships between features.
+
 Eigen Decomposition: Determining principal components.
+
 Dimensionality Reduction: Transforming data to a reduced space while retaining maximum variance.
+
 Visualization: Comparing original data with PCA-transformed data.
+
 Advanced PCA:
 Bootstrapping for robust variance estimation.
 Confidence intervals for variance explained by components.
