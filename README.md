@@ -94,15 +94,15 @@ A graph showing Robust PCA :Variation Estimation
 **Example Output**
 
 Running the notebook will display:
-*A scatter plot showing Animated PCA transformation
+* A scatter plot showing Animated PCA transformation
 
-*A scatter plot of the original data (Area vs. Perimeter).
+* A scatter plot of the original data (Area vs. Perimeter).
 
-*A scatter plot of the PCA-transformed data (Principal Component 1 vs. Principal Component 2).
+* A scatter plot of the PCA-transformed data (Principal Component 1 vs. Principal Component 2).
 
-*A graph of explained variance showing how much variance each principal component explains.
+* A graph of explained variance showing how much variance each principal component explains.
 
-*A graph showing Robust PCA :Variation Estimation
+* A graph showing Robust PCA :Variation Estimation
 
 **License**
 
